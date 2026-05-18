@@ -39,9 +39,4 @@ Las clases de `infraestructura` no pueden acceder a `adaptadores.rest`. Previene
 ## Pipeline GitHub Actions
  
 El workflow `arquitectura.yml` ejecuta las 5 reglas ArchUnit automáticamente en cada push a `main` o `develop`.
- 
-### Pipeline verde — todas las reglas pasan 
-![Pipeline verde](img/captura1.png)
- 
-### Pipeline rojo — violación de arquitectura detectada 
-![Pipeline rojo](img/captura2.png)
+
